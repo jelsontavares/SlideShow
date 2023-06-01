@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SlideShow</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/a0fd162eed.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header>
+        <div class="header"></div>
+        <div class="slider">
+
+            <div class="slider--controls">
+                <div class="slider--control" onclick="goPrev()"><i class="fa-solid fa-arrow-left fa-xs" style="color: #FFF;"></i></div>
+                <div class="slider--control" onclick="goNext()"><i class="fa-solid fa-arrow-right fa-xs" style="color: #FFF;"></i></div>
+            </div>
+            <div class="slider--width" style="width: calc(100vw * 3)">
+                <div class="slider--item" style="background-image: url('images/1.jpg')">
+                    Lorem ipsum dolor sit amet.
+                </div>
+                <div class="slider--item" style="background-image: url('images/2.jpg')">
+                    Adipisicing elit. 
+                </div>
+                <div class="slider--item" style="background-image: url('images/3.jpg')">
+                    Tempora voluptatibus aperiam 
+                </div>
+            </div>
+        </div>
+    </header>
+    <section>
+        <h1>Some Content</h1>
+    </section>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
